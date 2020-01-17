@@ -106,6 +106,7 @@ DEVICE_PACKAGE_OVERLAYS += vendor/fluid/overlay/common
 # Settings
 PRODUCT_PACKAGES += \
     SystemPitchBlackOverlay \
+    SystemUIPitchBlackOverlay \
     SystemDarkGrayOverlay \
     SystemUIDarkGrayOverlay \
     SystemStyleOverlay \
