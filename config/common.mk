@@ -135,6 +135,10 @@ PRODUCT_PACKAGES += \
     misc_writer_system \
     themed_bootanimation
 
+# Brightness thingy overlay
+PRODUCT_PACKAGES += \
+    BrightnessSliderOverlay
+
 # Screen recorder
 PRODUCT_PACKAGES += \
     Recorder
