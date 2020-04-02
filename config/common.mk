@@ -140,6 +140,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Recorder
 
+# Long Screenshot
+PRODUCT_PACKAGES += \
+    StitchImage
+
 # Face Unlock
 # Wait what why is this still here
 TARGET_FACE_UNLOCK_SUPPORTED := false
