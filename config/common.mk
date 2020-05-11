@@ -1,4 +1,5 @@
-PRODUCT_BRAND ?= PixelExperience
+PRODUCT_BRAND ?= BICPR
+# Meme rom
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
@@ -139,6 +140,7 @@ PRODUCT_PACKAGES += \
     Recorder
 
 # Face Unlock
+# Wait what why is this still here
 TARGET_FACE_UNLOCK_SUPPORTED := false
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
 ifneq ($(TARGET_DISABLE_ALTERNATIVE_FACE_UNLOCK), true)
@@ -150,11 +152,11 @@ endif
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.face.moto_unlock_service=$(TARGET_FACE_UNLOCK_SUPPORTED)
 
-# Branding
-include vendor/aosp/config/branding.mk
+# Versioning
+include vendor/aosp/config/version.mk
 
 # OTA
-include vendor/aosp/config/ota.mk
+# include vendor/aosp/config/ota.mk
 
 # GApps
 include vendor/gapps/config.mk
