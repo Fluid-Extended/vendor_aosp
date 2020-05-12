@@ -20,7 +20,7 @@ CUSTOM_VERSION := BICPR-$(BICPR_VERSION)-$(BICPR_CODENAME)-$(CUSTOM_BUILD_DATE)-
 CUSTOM_VERSION_PROP := $(BICPR_VERSION)-$(BICPR_CODENAME)
 
 CUSTOM_PROPERTIES := \
-    con.bicpr.version=$(CUSTOM_VERSION_PROP) \
+    com.bicpr.version=$(CUSTOM_VERSION_PROP) \
     com.bicpr.version.display=$(CUSTOM_VERSION) \
     com.bicpr.build_date=$(CUSTOM_BUILD_DATE) \
     com.bicpr.build_date_utc=$(CUSTOM_BUILD_DATE_UTC) \
