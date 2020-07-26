@@ -7,7 +7,7 @@ then
 	rm -f $Changelog
 fi
 
-export formatter_script=$(realpath vendor/aosp/tools/changelog_repo_formatter.sh)
+export formatter_script=$(realpath vendor/fluid/tools/changelog_repo_formatter.sh)
 
 touch $Changelog
 
