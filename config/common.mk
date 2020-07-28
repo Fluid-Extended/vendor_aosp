@@ -185,5 +185,6 @@ include vendor/fextras/config.mk
 
 # Customization
 include vendor/google-customization/config.mk
+-include packages/apps/Plugins/plugins.mk
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
