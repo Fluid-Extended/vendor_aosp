@@ -128,6 +128,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     TouchGestures
 
+# OmniStyle
+PRODUCT_PACKAGES += \
+    OmniStyle
+
 # PixelSetupWizard overlay
 PRODUCT_PACKAGES += \
     PixelSetupWizardOverlay \
